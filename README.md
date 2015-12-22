@@ -1,4 +1,10 @@
 apirest
 =======
 
-A Symfony project created on December 22, 2015, 10:07 pm.
+A symfony project with FosRestBundle with fixtures
+
+
+Use Curl
+=======
+
+Exemple : curl -X GET -H "Accept:application/json" http://localhost:8000/users/1 | python -mjson.tool
